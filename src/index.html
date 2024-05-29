@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap w/ Vite</title>
     <script type="module" src="./js/main.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+        .title-moto {
+            font-family: 'Poppins', sans-serif !important;
+            font-size: 4rem !important;
+            font-weight: bold !important;
+            line-height: 1.2 !important;
+            text-transform: uppercase !important;
+            letter-spacing: -2px !important;
+            margin: 0 !important;
+            padding: 20px 0 !important;
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+            text-align: center;
+        }
+
+        .hero-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .hero-text {
+            max-width: 800px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary p-5">
@@ -36,8 +69,10 @@
 </nav>
 
 
-<div class="container-fluid">
-
+<div class="hero-container">
+    <div class="hero-text">
+        <h1 class="title-moto"><span>GROWING</span><br><span>TOGETHER IN AN</span><br><span>EVER EXPANDING</span><br><span>SPACE</span></h1>
+    </div>
 </div>
 </body>
 </html>
