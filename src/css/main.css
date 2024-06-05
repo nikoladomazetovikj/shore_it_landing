@@ -144,7 +144,7 @@
 }
 
 .timeline-item.right .timeline-icon {
-    left: -65px;
+    left: 300px;
 }
 
 @media screen and (max-width: 600px) {
