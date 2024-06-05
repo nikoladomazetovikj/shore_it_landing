@@ -1,4 +1,4 @@
-import { resolve } from 'path'
+import { resolve } from 'path';
 
 export default {
     root: resolve(__dirname, 'src'),
@@ -7,5 +7,6 @@ export default {
     },
     server: {
         port: 8080
-    }
+    },
+    publicDir: resolve(__dirname, 'public')
 }
