@@ -31,12 +31,12 @@
 }
 
 .navbar-brand {
-    font-size: 2rem !important; /* Adjust the logo size */
+    font-size: 2rem !important;
     font-weight: bold;
 }
 
 .navbar-nav .nav-link {
-    font-size: 1.25rem !important; /* Adjust the link size */
+    font-size: 1.25rem !important;
 }
 
 .about-us-section {
@@ -211,4 +211,25 @@
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     text-align: center;
+}
+
+.form-bg {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.form-control:focus {
+    border-color: orange !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 165, 0, 0.25) !important;
+}
+
+.btn-orange {
+    background-color: darkorange !important;
+    border-color: orange !important;
+    color: white !important;
+}
+
+.btn-orange:hover {
+    background-color: darkorange !important;
+    border-color: darkorange !important;
 }
