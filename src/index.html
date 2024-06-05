@@ -212,7 +212,40 @@
         </form>
     </div>
 </div>
+<footer class="bg-light text-center text-lg-start mt-4">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Adresse</h5>
+                <p>
+                    Musterstraße 1<br>
+                    12345 Musterstadt<br>
+                    Deutschland
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Kontakt</h5>
+                <p>
+                    <strong>Telefon:</strong> +49 123 456 7890<br>
+                    <strong>E-Mail:</strong> info@shoreit.de
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Folgen Sie uns</h5>
+                <a href="#" class="btn btn-outline-dark btn-floating m-1" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="btn btn-outline-dark btn-floating m-1" role="button"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="btn btn-outline-dark btn-floating m-1" role="button"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        &copy; <span id="currentYear"></span> Shore IT GmbH. Alle Rechte vorbehalten.
+    </div>
+</footer>
 
+<script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
