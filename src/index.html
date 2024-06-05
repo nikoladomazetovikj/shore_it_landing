@@ -39,12 +39,12 @@
         }
 
         .navbar-brand {
-            font-size: 2rem !important;
+            font-size: 2rem !important; /* Adjust the logo size */
             font-weight: bold;
         }
 
         .navbar-nav .nav-link {
-            font-size: 1.25rem !important;
+            font-size: 1.25rem !important; /* Adjust the link size */
         }
 
         .about-us-section {
@@ -151,8 +151,9 @@
         @media screen and (max-width: 600px) {
 
             .title-moto {
-                font-size: 2.5rem!important;
+                font-size: 2.5rem !important;
             }
+
             .timeline::after {
                 left: 31px;
             }
@@ -178,6 +179,46 @@
             .timeline-item.right .timeline-icon {
                 left: -30px;
             }
+        }
+
+        .technologies-section {
+            padding: 60px 0;
+            background-color: #fff;
+        }
+
+        .technologies-section h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .technologies-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .technologies-icons .tech-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100px;
+        }
+
+        .technologies-icons .tech-icon img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .technologies-icons .tech-icon span {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            text-align: center;
         }
     </style>
 </head>
@@ -225,7 +266,7 @@
             <span>IT-Lösungen</span>
             <span>im</span>
             <span>Bereich</span>
-            <span>Nearshoring</span>
+            <span>Nearshoring.</span>
         </h1>
     </div>
 </div>
@@ -285,5 +326,78 @@
         </div>
     </div>
 </div>
+
+<div class="container-fluid technologies-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center" id="technologies">Technologien, die wir verwenden</h1>
+            </div>
+        </div>
+        <div class="row technologies-icons">
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" alt="PHP">
+                <span>PHP</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@5.22.0/icons/laravel.svg" alt="Laravel">
+                <span>Laravel</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" alt="Java">
+                <span>Java</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" alt="C#">
+                <span>C#</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain.svg" alt=".NET">
+                <span>.NET</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg" alt="MySQL">
+                <span>MySQL</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL">
+                <span>PostgreSQL</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" alt="MongoDB">
+                <span>MongoDB</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Python">
+                <span>Python</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                <span>TensorFlow</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" alt="Angular">
+                <span>Angular</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                <span>React</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue">
+                <span>Vue</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="tech-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go">
+                <span>Go</span>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
