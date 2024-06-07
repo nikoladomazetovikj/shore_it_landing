@@ -13,11 +13,11 @@
     position: relative;
     max-width: 800px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.7); /* Increase opacity for better readability */
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
     z-index: 2;
-    color: white; /* Ensure text is visible against the background */
+    color: white;
 }
 
 .title-moto {
@@ -138,9 +138,9 @@
     left: -35px;
     background-color: #ff8a00;
     color: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 50%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .timeline-item.right .timeline-icon {
@@ -163,6 +163,9 @@
         padding-right: 25px;
     }
 
+    .mob-p {
+        font-size: 0.9rem !important;
+    }
     .timeline-item.left, .timeline-item.right {
         left: 0;
     }
@@ -179,6 +182,8 @@
         left: -30px;
     }
 }
+
+
 
 .technologies-section {
     padding: 60px 0;
