@@ -247,3 +247,7 @@
     background-color: darkorange !important;
     border-color: darkorange !important;
 }
+
+.message-icon {
+    font-size: 1.3rem !important;
+}
