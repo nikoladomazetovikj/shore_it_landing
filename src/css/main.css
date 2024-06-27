@@ -107,11 +107,15 @@
 }
 
 .timeline-item.left::after {
-    left: -17px;
+    left: -10px;
 }
 
 .timeline-item.right {
     left: 50%;
+
+}
+.timeline-item.right::after{
+    right: 30px;
 }
 
 .timeline-item.left {
@@ -249,5 +253,31 @@
 }
 
 .message-icon {
-    font-size: 1.3rem !important;
+    font-size: 1.5rem !important;
+    display: flex !important;
+}
+
+.light-icon {
+    font-size: 1.5rem !important;
+    display: flex !important;
+}
+.people-icon {
+    font-size: 1.5rem !important;
+    display: flex !important;
+}
+.location-icon {
+    font-size: 1.5rem !important;
+    display: flex !important;
+}
+@media(max-width:600px){
+    .timeline-item.left::after{
+        left: 20px;
+    }
+    .timeline-item.right::after {
+        left: 20px;
+    }
+    .message-icon{
+        font-size: 1.35rem !important;
+        display:flex !important;
+    }
 }
